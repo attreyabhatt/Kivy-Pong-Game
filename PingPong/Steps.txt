@@ -1,0 +1,21 @@
+Steps to convert Kivy to Android APK -
+
+Note - If you are using Linux or Mac. Open up your terminal and directly jump to step number 4
+
+1) Signup on Digital Ocean
+https://m.do.co/c/c2cf5bc2a760 - Use this link to get 100$ free
+
+2) Create a Droplet
+3) Open up terminal Access Console and login using you One-Time Password
+4) Installing Python and Virtual Environment  
+https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04
+5) Install buildozer - https://buildozer.readthedocs.io/en/latest/installation.html#targeting-android
+6) Install Filezilla ( skip if Linux or Mac) - https://filezilla-project.org/download.php
+7) Connect Filzilla to server ( skip if Linux or Mac)
+8) Upload your kivy folder to enviroments folder ( in linux/mac just go to your kivy folder using terminal)
+9) buildozer init
+10) buildozer -v android debug
+
+11) Using Filezilla download the apk in your bin directory
+12) Copy this apk file to your phone
+13) Run it. ( You need to enable install apk with unknown sources)
